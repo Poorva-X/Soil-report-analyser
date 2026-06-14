@@ -1,4 +1,5 @@
 import streamlit as st
+import io
 import fitz  # module name provided by PyMuPDF(Extract text from pdf)
 import re#regular expression-helps python read inside text
 from dotenv import load_dotenv#to read API key from .env file
